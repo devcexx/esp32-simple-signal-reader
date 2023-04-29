@@ -1,0 +1,5 @@
+*~undo-tree~
+/build/
+/.cache/
+/esp32-samples-reader/target
+*.wav

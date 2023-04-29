@@ -1,0 +1,17 @@
+[package]
+name = "esp32-samples-reader"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.70"
+clap = { version = "4.2.4", features = ["derive"] }
+hound = "3.5.0"
+lazy_static = "1.4.0"
+libpulse-binding = "2.27.1"
+libpulse-simple-binding = "2.27.1"
+nix = { version = "0.26.2", features = ["signal"], default-features = false }
+regex = "1.8.1"
+serialport = "4.2.0"
