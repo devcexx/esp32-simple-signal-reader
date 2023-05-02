@@ -70,9 +70,6 @@ pub struct PulseStreamArgs {
     #[arg(short, long)]
     pub baud_rate: u32,
 
-    #[arg(short, long)]
-    pub output: String,
-
     #[arg(short, long, default_value_t = WaveAmplitude::Full)]
     pub wave_amplitude: WaveAmplitude,
 }
